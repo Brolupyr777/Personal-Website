@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Bohdan Lupyr</title>
+
+  
+  <style>
+
+    body{
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+
+      background: linear-gradient(45deg, #121212, #1a1a1a);
+      color: white;
+
+      height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 25em;
+      background:  #212121;
+      /* box-shadow: 5px 5px #363437; */
+      box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+      aspect-ratio: 7.5 / 11.5;
+      border-radius: 1rem;
+      /* padding: 1rem; */
+      gap: 10px;
+    }
+    h1{
+      font-size: 25px;
+      padding: 0;
+      margin: 0;
+    }
+    .description{
+      width: 15rem;
+      text-align: center;
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 15px;
+      align-items: center;
+
+    }
+
+    a{
+      text-align: center;
+      color: inherit;
+      text-decoration: none;
+      background: rgba(51,51,51,255);
+      width: 15rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      transition: 0.2s;
+      opacity: 0.8;
+    }
+    a:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+    .pic{
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <img width="100" height="100" src="/assets/images/photo_2024-01-27_14-49-15.jpg" class="pic">
+    <h1>Bohdan Lupyr</h1>
+    <p class="description">I am a SWE who likes to learn while building</p>
+    <p>"Looking At The Bigger Picture"</p>
+  
+    <div class="links">
+      <a href="https://github.com/Brolupyr777" target="_blank">
+        <!-- <img width="20" height="20" src="/assets/images/github-svgrepo-com.svg"> -->
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/bohdan-lupyr-330366218/" target="_blank">
+        <!-- <img width="20" height="20" src="/assets/images/linkedin-161-svgrepo-com.svg"> -->
+        Linkedin
+      </a>
+    </div>
+  </div>
+  
+</body>
+</html>
